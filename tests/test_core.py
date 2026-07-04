@@ -1,4 +1,5 @@
-from src.core import validate_csv_path, load_csv_to_list, clean_csv_data
+import pytest
+from src.core import validate_csv_path, load_csv_to_list, clean_csv_data, CSVProcessor
 
 def test_wrong_extension():
     assert validate_csv_path("report.txt") == False
@@ -46,6 +47,7 @@ def test_csvprocessor_invalid_file():
 
 def test_csvprocessor_save(tmp_path):
     processor = CSVProcessor("data/sample.csv")
+    processor.read()  
     output_file = tmp_path / "output.csv"
     processor.save(str(output_file))
     assert output_file.exists()
