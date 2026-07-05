@@ -1,6 +1,6 @@
 # CSV Processor
 
-[🇷🇺 Русский](#russian) | [🇬🇧 English](#english)
+[🇷🇺 Русский](https://github.com/V0olkER/csv_processor/blob/main/README.md#-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9) | [🇬🇧 English](https://github.com/V0olkER/csv_processor/blob/main/README.md#-english)
 
 ---
 
