@@ -1,7 +1,6 @@
 # CSV Processor
 
-<a name="russian"></a>
-[🇷🇺 Русский](#russian) | <a name="english"></a>[🇬🇧 English](#english)
+[🇷🇺 Русский](#russian) | [🇬🇧 English](#english)
 
 ---
 
